@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+</head>
+
+<style>
+    :root {
+        --cor01: gray;
+        --cor02: white;
+    }
+
+    body {
+        background-color: var(--cor01);
+    }
+
+    main {
+        background-color: var(--cor02);
+        padding: 20px;
+        border-radius: 10px;
+
+        min-width: 300px;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    div{
+        background-color: aqua;
+        width: 25%;
+        height: 150px;
+        margin: auto;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    div.teste:hover{
+        transform: scale(1.3);
+        transition: 2.5s;
+    }
+
+</style>
+
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <hr>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque nesciunt a neque odit doloremque magnam
+            ullam tempore enim aperiam expedita sint exercitationem quam debitis ipsum porro, sunt laboriosam omnis
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, veniam? Modi molestiae dolore dicta eos est,
+            ad non sint repellat consectetur quaerat magnam quod harum a eius vel voluptatem nesciunt?Lorem ipsum dolor,
+            sit amet consectetur adipisicing elit. Obcaecati impedit necessitatibus laborum ducimus modi dolorem sit!
+            Consequuntur fuga numquam rerum itaque placeat dolor iusto sed ullam consectetur! Consequuntur, quidem
+            reprehenderit.</p>
+
+        <picture>
+            <source media="(max-width:600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina-blok">
+        </picture>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque nesciunt a neque odit doloremque magnam
+            ullam tempore enim aperiam expedita sint exercitationem quam debitis ipsum porro, sunt laboriosam omnis
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, veniam? Modi molestiae dolore dicta eos est,
+            ad non sint repellat consectetur quaerat magnam quod harum a eius vel voluptatem nesciunt?Lorem ipsum dolor,
+            sit amet consectetur adipisicing elit. Obcaecati impedit necessitatibus laborum ducimus modi dolorem sit!
+            Consequuntur fuga numquam rerum itaque placeat dolor iusto sed ullam consectetur! Consequuntur, quidem
+            reprehenderit.</p>
+
+        <div class="teste">
+            <p>Movimentando</p>
+        </div>
+    </main>
+</body>
+
+</html>

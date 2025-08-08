@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(111, 109, 109);
+            margin: 0px;
+        }
+
+        nav {
+            background-color: rgb(133, 139, 139);
+            padding: 3px;
+            box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.656);
+        }
+
+        nav>a {
+            text-decoration: none;
+            margin-right: 30px;
+            color: white;
+        }
+
+        nav:hover>a {
+            text-decoration: underline;
+        }
+
+        header {
+            padding: 10px;
+            background-color: aliceblue;
+            margin: 10px;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            border-radius: 2px 10px;
+            box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.623);
+        }
+
+        article > section{
+            padding:5px;
+            
+        }
+
+        aside:hover>p {
+            color: rgba(169, 5, 5, 0.732);
+        }
+
+        article>section>aside {
+            background-color: rgb(101, 114, 129);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div{
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            background-color: aliceblue;
+            margin: 15px;
+            border-radius: 50%;
+            margin-left: 30px;
+        }
+
+        div:hover{
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+
+        <article>
+            <section>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laboriosam architecto, ipsum velit
+                    voluptatibus dolorum aliquid quaerat corporis numquam alias vero quis. Nihil quo quaerat neque enim
+                    et
+                    recusandae similique?</p>
+                <aside>
+                    <p>Artigo escrito por Vinicius Barros</p>
+                </aside>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+
+</body>
+
+</html>
