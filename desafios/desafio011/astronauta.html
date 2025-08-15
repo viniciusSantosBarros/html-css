@@ -4,49 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Astronauta</title>
-
-  <style>
-    * {
-      margin: 0px;
-      padding: 0px;
-      height: 0vh;
-    }
-
-    .pai {
-      width: 700px;
-      height: 600px;
-      position: relative;
-      top: 50px;
-      left: 450px;
-    }
-
-    .filho {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      left: 710px;
-      bottom: 310px;
-    }
-
-    .filho:hover {
-      transform: scale(1.5);
-    
-      transition: 2s;
-    }
-  </style>
+  <title>Astronauta no Espaço</title>
 </head>
 
+<style>
+  :root {
+    --cor00: black;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .espaço {
+    background-color: var(--cor00);
+    background-image: url('imagens/espaco.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+
+  .astronauta {
+    height: 300px;
+    width: 300px;
+    background-image: url('imagens/astronauta.png');
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+</style>
+
 <body>
+  <article class="espaço">
+    <section class="astronauta">
 
-  <div>
-    <img src="imagens/espaco.jpg" alt="espaco.jpg" class="pai">
-
-    <div class="animate__animated animate__bounce">
-      <img src="imagens/astronauta.png" alt="astronauta.png" class="filho">
-    </div>
-
-  </div>
+    </section>
+  </article>
 
 </body>
 
