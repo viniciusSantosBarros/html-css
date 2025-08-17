@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor00: white;
+    --cor01: black;
+    --fontH1: "Passion One", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+header {
+    background-color: var(--cor01);
+    height: 150px;
+}
+
+header>h1 {
+    color: var(--cor00);
+    text-align: center;
+    padding: 25px 0px;
+    font-family: var(--fontH1);
+    font-size: 3rem;
+}
+
+header>p {
+    color: var(--cor00);
+    text-align: center;
+}
+
+header a {
+    color: var(--cor00);
+    text-decoration: none;
+    font-family: 'verdana';
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
