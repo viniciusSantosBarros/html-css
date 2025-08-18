@@ -23,22 +23,19 @@
     --fontP: 'PortoRoobert';
 }
 
-main section{
-    max-width: 100%vw;
-}
-
 header {
     background-color: var(--cor01);
     min-height: 150px;
+    display: block;
 }
 
 header>h1 {
     color: var(--cor00);
     text-align: center;
-    padding: 30px 0px;
+    padding: 30px;
     font-size: 3.9rem;
     font-family: var(--fontH1);
-
+    max-width: 100%vw;
 }
 
 header>p {
@@ -63,6 +60,7 @@ main section {
     width: 100%vw;
     padding: 40px 0px;
     box-shadow: 0px 2px 10px 3px rgba(60, 60, 60, 0.279);
+    display: block;
 }
 
 main>section>p {
