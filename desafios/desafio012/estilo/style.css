@@ -27,6 +27,7 @@ header {
     background-color: var(--cor01);
     min-height: 150px;
     max-width: 100%vw;
+    min-width: 530px;
 }
 
 header>h1 {
@@ -35,7 +36,6 @@ header>h1 {
     padding: 30px 5px;
     font-size: 3.9rem;
     font-family: var(--fontH1);
-    min-width: 300px;
 }
 
 header>p {
