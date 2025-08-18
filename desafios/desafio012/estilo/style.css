@@ -23,10 +23,13 @@
     --fontP: 'PortoRoobert';
 }
 
+main{
+    max-width: 100%vw;
+}
+
 header {
     background-color: var(--cor01);
     min-height: 150px;
-    width: 100%vw;
 }
 
 header>h1 {
