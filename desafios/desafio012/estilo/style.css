@@ -32,7 +32,7 @@ header {
 header>h1 {
     color: var(--cor00);
     text-align: center;
-    padding: 30px 0px;
+    padding: 30px 5px;
     font-size: 5.9rem;
     font-family: var(--fontH1);
 }
