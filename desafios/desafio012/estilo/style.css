@@ -27,7 +27,7 @@ header {
     background-color: var(--cor01);
     min-height: 150px;
     max-width: 100%vw;
-    min-width: 530px;
+    min-width: 50%vw;
 }
 
 header>h1 {
