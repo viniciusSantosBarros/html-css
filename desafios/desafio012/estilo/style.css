@@ -1,13 +1,8 @@
 @charset "UTF-8";
 
-* {
+*{
     margin: 0px;
     padding: 0px;
-}
-
-@font-face {
-    font-family: 'BlackHanSans';
-    src: url('../fonts/BlackHanSans-Regular.ttf');
 }
 
 @font-face {
@@ -15,100 +10,73 @@
     src: url('../fonts/PortoRoobert-Bold.woff');
 }
 
-:root {
-    --cor00: white;
-    --cor01: black;
-    --cor03: rgba(0, 0, 0, 0.449);
-    --fontH1: 'BlackHanSans';
-    --fontP: 'PortoRoobert';
+@font-face {
+    font-family: 'BlackHansSans';
+    src: url('../fonts/BlackHanSans-Regular.ttf');
 }
 
-header {
+:root{
+    --cor00:white;
+    --cor01:black;
+    --fontH1:'BlackHansSans';
+    --fontSection:'PortoRoobert';
+}
+
+/*Seção: Header*/
+
+header{
     background-color: var(--cor01);
     min-height: 150px;
-    display: block;
+    width: 100%vw;
 }
 
-header>h1 {
+header > h1{
     color: var(--cor00);
     text-align: center;
-    padding: 30px;
-    font-size: 3.9rem;
+    padding: 25px 10px;
+    font-size: 3rem;
     font-family: var(--fontH1);
-    max-width: 100%vw;
 }
 
-header>p {
+header > P {
     color: var(--cor00);
     text-align: center;
-    font-family: var(--fontH1);
-    padding: 25px 0px 30px 0px;
+    padding: 15px 5px 30px 5px;
+    font-family: var(--fontSection);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
-header a {
+header > p > a{
     color: var(--cor00);
     text-decoration: none;
-    font-family: 'verdana';
-    font-weight: bold;
 }
 
-header a:hover {
+header a:hover{
     text-decoration: underline;
 }
+
+/*Seção: Main*/
 
 main section {
-    width: 100%vw;
-    padding: 40px 0px;
-    box-shadow: 0px 2px 10px 3px rgba(60, 60, 60, 0.279);
-    display: block;
+    padding: 40px 3px 15px 15px;
+    font-family: var(--fontSection);
+    line-height: 4rem;
+    font-size: 1.5rem;
 }
 
-main>section>p {
-    width: 450px;
-    padding: 30px;
-    line-height: 3rem;
-    font-weight: bold;
-    font-size: 2rem;
-    font-family: var(--fontP);
-}
-
-.img01 {
+.img01{
     background-image: url('../imagens/background001.jpg');
-    background-repeat: no-repeat;
     background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    max-width: 100%vw;
 }
 
-.img02 {
+.img02{
     background-image: url('../imagens/background002.jpg');
-    background-repeat: no-repeat;
     background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    max-width: 100%vw;
-}
-
-.p_img {
-    color: var(--cor00);
-    background-color: var(--cor03);
-}
-
-footer {
-    background-color: var(--cor01);
-    color: var(--cor00);
-    text-align: center;
-    padding: 15px 0px;
-    font-weight: bolder;
-    font-family: var(--fontP);
-}
-
-footer>p>a {
-    text-decoration: none;
-    color: var(--cor00);
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
