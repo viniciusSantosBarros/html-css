@@ -26,12 +26,12 @@ header {
 
 header > h1{
     color: white;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
     flex: 0 0 200px;
 }
 
 header > nav{
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
     
     display: flex;
     flex-flow: row wrap;
