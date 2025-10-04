@@ -66,5 +66,13 @@ div.media > img{
 div.media > iframe{
     display: block;
     margin: auto;
+}
+
+@media screen and (max-width: 1034px) {
+    
+    div.media > iframe{
+    display: block;
+    width: 100vw;
+    }
 
 }
