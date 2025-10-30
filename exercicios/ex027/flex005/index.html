@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box Centralizado</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: lightgreen;
+        }
+
+        main{
+            background-color: lightsalmon;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row nowrap;
+        }
+
+        section{
+            background-color: lightskyblue;
+            height: 200px;
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        h1{
+            margin-top: 50px
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Caixa Centralizada</h1>
+        </section>
+    </main>
+</body>
+</html>
