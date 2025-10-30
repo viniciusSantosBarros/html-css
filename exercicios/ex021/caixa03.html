@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento</title>
+    <style>
+        #grid-container{
+            display: grid;
+        }
+
+        @media  screen and (max-width: 786px) {
+            body{ 
+                background-color: red;
+            }
+            
+            #grid-container{
+                height: 400px;
+                grid-template-columns: auto 90vw auto;
+                
+            }
+        }
+
+        @media screen and (min-width: 787px){
+            #grid-container{
+            height: 400px;
+            grid-template-columns: auto 50vw 1fr auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="grid-container">
+            <div class="item1">A</div>
+            
+        </div>
+    </main>
+</body>
+</html>
