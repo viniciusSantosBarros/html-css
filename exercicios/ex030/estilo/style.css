@@ -26,6 +26,7 @@
 
 a{
     text-decoration: none;
+    background-color: var(--cor00);
 }
 
 .globocom{
@@ -69,15 +70,55 @@ main, section, article, h1, p{
 
 h1{
     color: #06AA48;
-    margin: 20px 15px 15px 20px;
+    text-align: center;
+    padding: 20px 5px;
+    
 }
 
 p{
-    margin: 0px 15px 15px 15px;
     text-align: justify;
+    padding: 0px 5px 10px 0px;
 }
 
-/* img{
+section{
+    display: grid;
+    grid-template-columns: auto 90vW auto;
+}
+
+img{
     width: 90vw;
-} */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn{
+    margin: 10px;
+    display: block;
+    margin: auto;
+    border-radius: 2px;
+    background-color: #06AA48;
+    color: var(--cor00);
+    width: 70vw;
+    height: 30px;
+}
+
+.btn:hover{
+    background-color: #0a632e;
+    transition: 0.4s;
+}
+
+main  footer{
+    background-color: #C4170C;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
 
