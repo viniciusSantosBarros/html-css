@@ -1,0 +1,57 @@
+@charset "UTF_8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor02);
+}
+
+:root{
+    --cor00: white;
+    --cor01: lightgray;
+    --cor02: black;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.globocom{
+    color: #0E69DE;
+}
+
+.g1{
+    color: #C4170C;
+}
+
+.ge{
+    color: #06AA48;
+}
+
+.gshow{
+    color: #FF6710;
+}
+
+.globoplay{
+    color: #FB0334
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    background-color: #06AA48;
+    height: 70px;
+}
